@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Amas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="aboutStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="page-nav">
+        <div class="logo">
+            <img src="" alt="" class="logo-image">
+            Daniel.O.Amas
+        </div>
+        <ul class="nav-link-lists">
+            <li class="nav-links">
+                <a href="./index.html" class="nav-link-anchors hover-effect">
+                    Home
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#" class="nav-link-anchors current hover-effect">
+                    About
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#projects" class="nav-link-anchors hover-effect">
+                    Projects
+                </a>
+            </li>
+            <li class="nav-links">
+                <a href="#" id="nav-link-anchor-primary" class="nav-link-anchors primary-button">
+                    Contact Me
+            </a>
+            </li>
+        </ul>
+    </header>
+    <section id="about-me">
+        <div class="flex flex-1">
+            <div class="container row">
+                <div class="info-container">
+                    <div class="info-title-container">
+                        <h1 class="info-title">
+                            Hi, I'm Daniel Amas, a <span class="bounce">Front-end Developer</span> based in Ontario, Canada.
+                        </h1>
+                        <p class="info-description">
+                            I build interactive mobile-first websites and web applications for clients.
+                        </p>
+                    </div>
+                    
+                    <figure class="info-image-container">
+                        <img src="./assets/undraw_progressive_app_m9ms.svg" alt="" class="info-image">
+                    </figure>
+                </div>
+                <div class="external-links-container">
+                    <a href="https://github.com/Daniel-Amas" class="external-links" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniel-amasowomwan-979902219/" class="external-links" target="_blank">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:d.a.osazee@gmail.com" class="external-links">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer-row">
+            <a href="#">
+                <p class="footer-logo">Daniel.O.Amas</p>
+            </a>
+            <div class="social-links-list">
+                <a href="https://github.com/Daniel-Amas" class="social-links hover-effect-white" target="_blank">
+                    Github
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-amasowomwan-979902219" class="social-links hover-effect-white" target="_blank">
+                    Linkedin
+                </a>
+                <a href="" class="social-links hover-effect-white" target="_blank">
+                    Resume
+                </a>
+            </div>
+            <div class="copyright">
+                copyright &copy;2021 Daniel Amas
+            </div>
+        </div>
+    </footer>
+    <!--MODAL SECTION-->
+    <div class="contact-modal">
+        <div class="contact-modal-content">
+            <div class="close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <figure class="contact-modal-img">
+                <img src="./assets/undraw_contact_us_15o2.svg" alt="">
+            </figure>
+            <form action="https://formspree.io/f/xyylbnle" method="POST" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="full-name" name="full-name" placeholder="Full Name" required> 
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required> 
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" cols="40" rows="5" placeholder="Send a message!" required></textarea> 
+                </div>
+                <button class="primary-button submit">
+                    Send
+                </button>
+            </form>
+            
+        </div>
+        <div id="status" class="success">
+            Sent Successfully
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
