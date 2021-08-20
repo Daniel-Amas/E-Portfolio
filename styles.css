@@ -104,7 +104,7 @@ header:hover{
     padding: 5px 5px;
     color: rgb(116, 116, 116);
 }
-.current{
+.current-page{
     color: black;
     font-weight: 600;
 }
