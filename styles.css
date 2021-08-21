@@ -83,6 +83,9 @@ section:nth-child(odd){
 
 /*NAVIGATION BAR*/
 
+#page-nav{
+    padding: 0px 30px;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -515,6 +518,9 @@ footer{
     }
 }
 @media only screen and (max-width: 480px){
+    #page-nav{
+        padding: 0;
+    }
     .nav-links:not(:last-child){
         display: none;
     }
