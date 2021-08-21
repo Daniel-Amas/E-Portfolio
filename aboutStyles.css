@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+    position: relative;
+}
+a:visited{
+    color:none;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    color: #3d3d3d;
+    font-size: 14px;
+}
+li{
+    line-height: 1.5;
+}
+ul{
+    padding-left: 25px;
+}
+.info-title h1,
+.info-title h2,
+.info-title h3{
+    text-align: left;
+    font-weight: 400;
+    color: #0b4e75;
+}
+#about-me2{
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 800px;
+}
+.productivity-image-container{
+    width: 100%;
+    max-width: 800px;
+}
+.productivity-image{
+    width: 100%;
+}
+.resume-section{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.description{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.resume-section-content{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
